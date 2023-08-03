@@ -10,5 +10,6 @@ panels.forEach(panel => {
 function removeActiveClasses(){
     panels.forEach(panel => {
         panel.classList.remove('active');
+        console.log('hi');
     })
 }

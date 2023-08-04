@@ -116,21 +116,21 @@ function removeFromLocalStorage(task){
 }
 
 
- const url = 'https://jsonplaceholder.typicode.com/todos/1';
- // another way using fetch
-const getTodos = async url =>{
-    const response = async url =>{
-        if(response.status === 200){
-            const data = await response.json();
-            return data;
-        }else{
-            throw new Error('not found...');
-        }
-    }
-}
-getTodos(url)
-.then(data => console.log(data))
-.catch(error => console.log(error))
+//  const url = 'https://jsonplaceholder.typicode.com/todos/1';
+//  // another way using fetch
+// const getTodos = async url =>{
+//     const response = async url =>{
+//         if(response.status === 200){
+//             const data = await response.json();
+//             return data;
+//         }else{
+//             throw new Error('not found...');
+//         }
+//     }
+// }
+// getTodos(url)
+// .then(data => console.log(data))
+// .catch(error => console.log(error))
 // const getTodos = function(url){
 //     return new Promise(function(resolve, reject){
         
